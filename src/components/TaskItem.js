@@ -51,8 +51,11 @@ function TaskItem(props) {
         onChange={() => dispatch(actions.toggleTask(props.task.idx))}
       />
       <TaskName>{props.task.taskName}</TaskName>
+      <Button onClick={() => dispatch(actions.editTask(props.task.idx))}>
+        編輯
+      </Button>
       <Button onClick={() => dispatch(actions.deleteTask(props.task.idx))}>
-        Delete
+        刪除
       </Button>
     </Container>
   );

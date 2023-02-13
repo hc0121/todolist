@@ -29,19 +29,19 @@ function Filter(props) {
         active={props.selected === "SHOW_ALL"}
         onClick={() => dispatch(actions.setFilter("SHOW_ALL"))}
       >
-        ALL
+        全部
       </Button>
       <Button
         active={props.selected === "SHOW_TODO"}
         onClick={() => dispatch(actions.setFilter("SHOW_TODO"))}
       >
-        TODO
+        待辦
       </Button>
       <Button
         active={props.selected === "SHOW_DONE"}
         onClick={() => dispatch(actions.setFilter("SHOW_DONE"))}
       >
-        DONE
+        完成
       </Button>
     </ButtonContainer>
   );

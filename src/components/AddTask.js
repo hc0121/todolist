@@ -47,18 +47,6 @@ const AddBtn = styled.button`
   }
 `;
 
-/*const SearchBtn = styled.button`
-  padding: 0;
-  border: none;
-  height: 27px;
-  width: 27px;
-  background-color: inherit;
-
-  img {
-    cursor: pointer;
-  }
-`;*/
-
 function AddTask() {
   const dispatch = useDispatch();
 
@@ -86,9 +74,6 @@ function AddTask() {
       <AddBtn onClick={() => handleClick()} >
         <img src={Add} alt="新增"/>
       </AddBtn>
-      {/* <SearchBtn onClick={() => handleClick()} > */}
-        {/* <img src={Search} alt="搜尋"/>*/ }
-      {/* </SearchBtn> */}
     </Wrapper>
   );
 }
