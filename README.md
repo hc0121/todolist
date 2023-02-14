@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Engineer interview homework
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Note that we'll not use any code from this project from you, the code belongs to you and you have all the rights to it.
 
-## Available Scripts
+## Create a Todo List
 
-In the project directory, you can run:
+Please create a todo app (web or mobile) using reactjs (or react-native or nextjs) that should be able to allow users to create and manage tasks. The app should have a user-friendly interface that allows users to easily add, edit, and delete tasks. Demo
 
-### `npm start`
+Please send us the public GitHub link to the result in 7 days upon receiving this homework.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Requirements
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* List all tasks + 18
+* Can Delete task + 19
+* Can add task title + 19
+* Users can mark tasks as completed or uncompleted + 20
+* Can Edit task + 24
 
-### `npm test`
+### Bonus
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Ability to search existing tasks + 10
+* Tasks can be dragged and rearranged + 10
+* Can login(any login method is accepted) + 10
+* Tasks can be rearranged + 10
+* RWD + 10
+* Can add Description + 10
+* Use Git to manage this project + 10
+* UIi/UX +10
+* Users can mark tasks as completed or uncompleted + 10
+* Ability to add start and end dates to tasks + 10
+* Use typescript + 10
+* Use graphql + 10
+* Use react native + 10
+* Use android + 10
+* Use ios + 10
+* Use web + 10
+* Use cypress + 10
+* Use selenium + 10
+* Use docker + 10
+* Use redis + 10
+* Use argon2 + 10
+* Use mongodb +10
+* Use freshjs + 10
+* Use wasm + 10
+* Use mysql + 10
+* Use mariadb + 10
+* Use nx + 10
+* Use expo + 20
+* Use aws +20
+* Use gcp + 20
+* Use fastlane + 30
+* Use firebase + 30
+* Use openapi/swagger + 30
+* Security + 30
+* Use sh + 40
+* Use pwa + 40
+* Use nextjs + 50
+* Write unit test + 60
+* Writing Documentation + 60
