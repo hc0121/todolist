@@ -2,9 +2,9 @@ import React from "react";
 import * as types from '../actions/ActionTypes';
 
 const initialTasks = [
-  { taskName: "task1", isCompleted: false },
-  { taskName: "task2", isCompleted: true },
-  { taskName: "task3", isCompleted: false },
+  { taskName: "項目1", isCompleted: false },
+  { taskName: "項目2", isCompleted: false },
+  { taskName: "項目3", isCompleted: false },
 ];
 
 export default function todos(state = initialTasks, action) {
@@ -23,6 +23,8 @@ export default function todos(state = initialTasks, action) {
       let newState = [...state];
       newState[action.idx].isCompleted = !newState[action.idx].isCompleted;
       return newState;
+    case types.EDIT_TASK:
+      return 
     default:
       return state;
   }
